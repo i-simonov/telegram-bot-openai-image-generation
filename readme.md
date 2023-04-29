@@ -20,15 +20,15 @@ Before you get started, make sure you have:
 
 To use the bot, clone the repository:
 
-\```bash
+```bash
 git clone https://github.com/username/telegram-bot-openai-image-generation.git
-\```
+```
 
 Change to the project directory:
 
-\```bash
+```bash
 cd telegram-bot-openai-image-generation
-\```
+```
 
 Ensure you have the required dependencies installed on your machine:
 
@@ -47,15 +47,15 @@ Update the following placeholders in the `TelegramBot1CDaleeBot` and `OpenAiApiD
 
 To run the bot, open a terminal in the project directory and execute:
 
-\```bash
+```bash
 gradle clean build
-\```
+```
 
 After the build process is completed, run the application:
 
-\```bash
+```bash
 java -cp build/libs/app.jar telegram-bot-openai-image-generation.App
-\```
+```
 
 The bot should now be up and running. To test it, send a message to your bot in Telegram with a text prompt, and the bot will generate an image URL based on the prompt.
 
